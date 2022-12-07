@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    color: red;
+    font-family: Times New Roman;
+    border: 3px solid black;
+    width: 330px;
+    border-radius: 50px;
+    padding: 10px;
+    position: relative;
+    left: 380px;
+}
+
+img {
+    width: 200px;
+}
+
+h1,
+h2,
+h3,
+dt,
+p {
+    color: black;
+    font-size: 30px;
+}
+
+.footer {
+    background-image: url('background-imtiaz.jpg');
+    background-repeat: repeat;
+    color: black;
+}
+
+.style1css {
+    list-style-position: outside;
+    list-style-type: disc;
+
+}
+
+.style2css {
+    list-style-position: outside;
+    list-style-type: square;
+}
+
+p {
+    text-decoration: underline dotted;
+    direction: rtl;
+}
+
+h1 {
+    width: 310px;
+    height: 50px;
+    background-image: url('border.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    direction: ltr;
+}
+
+.list-style-image {
+    list-style-image: url('icon.png');
+}
+
+.list-style-image li {
+    background-size: 30px 30px;
+}
